@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.final_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/angelomiray/Downloads/final_project_2/final_project/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/home/angelomiray/Downloads/final_project_2/final_project/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+16-->[:local_auth_android] /home/angelomiray/Downloads/final_project_2/final_project/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-72
+16-->[:local_auth_android] /home/angelomiray/Downloads/final_project_2/final_project/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-69
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:connectivity] /home/angelomiray/Downloads/final_project_2/final_project/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+17-->[:connectivity] /home/angelomiray/Downloads/final_project_2/final_project/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+18-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- suppress DeprecatedClassUsageInspection -->
+19-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+19-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+20-->[androidx.biometric:biometric:1.1.0] /home/angelomiray/.gradle/caches/transforms-3/29a53b35c072e5e16e15ef7c62078a12/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+20-->[androidx.biometric:biometric:1.1.0] /home/angelomiray/.gradle/caches/transforms-3/29a53b35c072e5e16e15ef7c62078a12/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.final_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.final_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.10.1] /home/angelomiray/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+43        android:label="final_project" >
+44        <activity
+45            android:name="com.example.final_project.MainActivity"
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47            android:exported="true"
+48            android:hardwareAccelerated="true"
+49            android:launchMode="singleTop"
+50            android:theme="@style/LaunchTheme"
+51            android:windowSoftInputMode="adjustResize" >
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+60                android:name="io.flutter.embedding.android.NormalTheme"
+61                android:resource="@style/NormalTheme" />
+62
+63            <intent-filter>
+64                <action android:name="android.intent.action.MAIN" />
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+74            android:name="flutterEmbedding"
+75            android:value="2" />
+76
+77        <provider
+77-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+78            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+78-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+79            android:authorities="com.example.final_project.flutter.image_provider"
+79-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+80            android:exported="false"
+80-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+81            android:grantUriPermissions="true" >
+81-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+82            <meta-data
+82-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+84                android:resource="@xml/flutter_image_picker_file_paths" />
+84-->[:image_picker_android] /home/angelomiray/Downloads/final_project_2/final_project/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+85        </provider>
+86
+87        <activity
+87-->[:url_launcher_android] /home/angelomiray/Downloads/final_project_2/final_project/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+88            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+88-->[:url_launcher_android] /home/angelomiray/Downloads/final_project_2/final_project/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+89            android:exported="false"
+89-->[:url_launcher_android] /home/angelomiray/Downloads/final_project_2/final_project/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+90            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+90-->[:url_launcher_android] /home/angelomiray/Downloads/final_project_2/final_project/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+91
+92        <service
+92-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+93            android:name="com.lyokone.location.FlutterLocationService"
+93-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+94            android:enabled="true"
+94-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+95            android:exported="false"
+95-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+96            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
+96-->[:location] /home/angelomiray/Downloads/final_project_2/final_project/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+97        <uses-library
+97-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+98            android:name="org.apache.http.legacy"
+98-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+99            android:required="false" />
+99-->[com.google.android.gms:play-services-maps:18.2.0] /home/angelomiray/.gradle/caches/transforms-3/10573cd3896b16f5dcfdc7ca46129976/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.0.1] /home/angelomiray/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.0.1] /home/angelomiray/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.0.1] /home/angelomiray/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.0.1] /home/angelomiray/.gradle/caches/transforms-3/aba8f806953ea3dd8f794da3aeb78a12/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:18.0.0] /home/angelomiray/.gradle/caches/transforms-3/f64fba6e6efbe26a4b67f791bcfc957f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:18.0.0] /home/angelomiray/.gradle/caches/transforms-3/f64fba6e6efbe26a4b67f791bcfc957f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:18.0.0] /home/angelomiray/.gradle/caches/transforms-3/f64fba6e6efbe26a4b67f791bcfc957f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+109
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+111            android:name="androidx.window.extensions"
+111-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+114            android:name="androidx.window.sidecar"
+114-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] /home/angelomiray/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+116
+117        <provider
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+118            android:name="androidx.startup.InitializationProvider"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+119            android:authorities="com.example.final_project.androidx-startup"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+120            android:exported="false" >
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <receiver
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+127            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+128            android:directBootAware="false"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+129            android:enabled="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+130            android:exported="true"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+131            android:permission="android.permission.DUMP" >
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+133                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+136                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+139                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+142                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/angelomiray/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+143            </intent-filter>
+144        </receiver>
+145    </application>
+146
+147</manifest>
